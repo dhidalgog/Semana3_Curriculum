@@ -1,0 +1,167 @@
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.row {
+    clear: both;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.container, .col-1, .col-2, .col-3, .col-4, .col-5,
+.col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    float: left;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 5% 10% 5% 10%;
+    background-color: white;
+}
+
+.span_size {
+    font-size: 26px;
+}
+
+
+.dialogue{
+    background: #f8f8f8;
+    position: relative;
+    margin-bottom: 1%;
+    box-sizing: border-box;
+}
+  /* https://leaverou.github.io/bubbly/ */
+.dialogue:after { 
+    content: '';
+    position: absolute;
+    left: 0; top: 50%;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-right-color: #f8f8f8;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -15px;
+    margin-left: -10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.skills{
+    background-color: #40b0de;
+    color: #ffffff;
+    margin-top: 1%;
+    padding: 1%;
+    border: solid 1px #40b0de;
+}
+/* For skills lis*/
+.html{
+    margin-right: 50%;
+}
+.css{
+    margin-right: 60%;
+}
+.ruby{
+    margin-right: 80%;
+}
+.python{
+    margin-right: 80%;
+}
+
+.languages_list{
+    list-style: none;
+    padding: 2%;
+}
+.language{
+    border-bottom: solid 1px #f0eff0;
+    margin-right: 3%;
+    padding-left: 2%;
+    margin-bottom: 5%;
+}
+
+.stars{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'MyWebFont';
+}
+
+.default_font{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hobbies{
+    background-color: #5e458a;
+    padding: 2%;
+    list-style: none;
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 1%;
+}
+
+.right{
+    margin:0;
+    float: right;
+}
+
+.photo{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: relative;
+    border: 5px solid #f0eff0;
+    margin-top: -5%;
+}
+
+.mid{
+    margin-top: -2%;
+    display: block;
+    text-align: center;
+  }
+
+@font-face{
+    font-family: 'MyWebFont';
+    src: url('fonts/seeing_stars/SEEIS___.ttf')  format('truetype');
+}
+
+body{
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    padding: 2%;
+}
+
+span{
+    color: #40b0de;
+}
+
+b{
+    font-size: 19px;
+}
+
+
+
